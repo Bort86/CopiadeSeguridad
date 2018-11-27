@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <script type="text/javascript" src="./js/control/index.js"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <title></title>
+  </head>
+  <body>
+    <div class="jumbotron" align="center">
+      <h1>Date object</h1>
+      <p>Using the Date object of Javascript</p>
+    </div>
+    <div id="divIntro" class="form-group">
+      <label>Introduce the number of buttons:</label>
+      <input type="number" class="form-control" id="numButtons"
+      placeholder="Number of buttons" style="width:250px">
+      <small class="form-text text-muted">Between 1 and 4</small><br><br>
+      <button class="btn btn-lg btn-primary" onclick="showButtons()">Submit
+      </button>
+    </div>
+    <div id="divButtons">
+    </div>
+    <div id="divResult">
+      <p id="pResult"></p>
+      <button class="btn btn-lg btn-dark" onclick="goBack()">Back</button>
+
+    </div>
+  </body>
+</html>

@@ -1,0 +1,29 @@
+body{
+    margin:2em;
+}
+
+img {
+    float:left;
+    display:inline;
+    margin-top:0em;
+    margin-right: 2em;
+}
+
+iframe {
+    float:left;
+    display:inline;
+    margin: 2em;
+}
+
+td{
+    text-align: center;
+}
+
+th{
+    text-align: center;
+}
+
+table,th,td{
+    border: 1px solid black;
+    padding:4px;
+}

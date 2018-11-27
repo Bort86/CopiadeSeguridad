@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+
+<!--
+The iframe will ask the client to choose between dna or protein code
+and will ask for the amount of products to introduce
+-->
+
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <script type="text/javascript" src="../js/control/iframeNew.js"></script>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link rel="stylesheet" href="../css/format.css" crossorigin="anonymous">
+        <title>Práctica 1.2</title>
+    </head>
+    <body>
+        <div id="div1" class="jumbotron">
+            <label class="lead">Select Product</label>
+            <select class="form-control" id="productType">
+                <option value="DNA code">DNA code</option>
+                <option value="Protein code">Protein code</option>
+            </select>
+        
+            <label>Introduce the number of products</label>
+            <input type="text" id="numberProducts" placeholder="1">
+            <button class="btn btn-primary" onclick="introduceCode()">
+                Introduce</button>
+            <p id="errors" />
+        </div>
+        
+        
+    </body>
+</html>

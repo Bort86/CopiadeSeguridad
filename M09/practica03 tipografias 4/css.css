@@ -1,0 +1,47 @@
+/*
+Fes una web que inclogui, com a mínim, 3 web fonts diferents. 
+Posa text d'exemple que les faci servir. Entregueu aquesta part 
+amb aquest enunciat en un arxiu comprimit
+*/
+/* 
+    Created on : 06-oct-2018, 13:17:03
+    Author     : pablo
+*/
+
+/*
+primero importamos las 3 urls del origen de las 3 fuentes
+*/
+@import url('https://fonts.googleapis.com/css?family=Oswald');
+@import url('https://fonts.googleapis.com/css?family=Concert+One');
+@import url('https://fonts.googleapis.com/css?family=Karla');
+
+
+/*
+Luego añadimos la propiedad @font-face, con el atributo font-family, 
+especificando el nombre de cada fuente (está especificado en su página web)
+*/
+@font-face{
+    font-family: 'Oswald';
+    font-family: 'Concert+One';
+    font-family: 'Karla';
+    
+}
+
+/*
+en el código html hemos puesto 3 divs con sus identificadores class 
+correspondientes para diferenciarlos y poder poner 3 fuentes 
+distintas sin conflictos. Como medida de precaución agregamos también una 
+fuente universal como sans-serif
+*/
+
+.font1 {
+    font-family: 'Oswald', sans-serif;
+}
+
+.font2 {
+    font-family: 'Concert+One', sans-serif;
+}
+
+.font3 {
+    font-family: 'Karla', sans-serif;
+}
